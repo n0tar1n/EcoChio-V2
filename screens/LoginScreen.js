@@ -18,8 +18,8 @@ export default function LoginScreen({ navigation }) {
                 <TouchableOpacity style={styles.button}>
                     <Text style={styles.buttonText}>Create Account</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.button} onPress={() => navigation.replace('MainTabs')}>
-                    <Text style={styles.buttonText}>Sign in</Text>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("MainTabs")}>
+                    <Text style={styles.buttonText}>Sign In</Text>
                 </TouchableOpacity>
             </View>
         </SafeAreaView>
